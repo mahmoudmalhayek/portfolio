@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #cb3931;
+  --secondary-color: #f0f0f0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact {
+  padding: 220px;
+  background-color: var(--secondary-color);
+  color: black;
+}
+.card {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: absolute;
+  background-color: white;
+  width: 50vw;
+  height: 95vh;
+}
+#logo {
+  margin-left: 45%;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+}
+.column {
+  width: 10%;
+  height: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+p {
+  color: var(--primary-color);
+  font-size: 8px;
+  width: 150px;
+  padding-bottom: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 10%;
+  padding-left: 5%;
+  background-color: var(--secondary-color);
+}
+.info div {
+  display: flex;
+  flex-direction: column;
+}
+.info h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.info #contact {
+  margin-left: 25%;
+  margin-top: 11%;
+  position: absolute;
+  font-size: x-small;
+  color: var(--primary-color);
+  line-height: 15px;
+  font-weight: 500;
+}
+#specialization {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: large;
+  padding-bottom: 40px;
+}
+#social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  gap: 10px;
+}
+#social-media img {
+  width: 10px;
+  height: 10px;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+.experience div {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#knowledge {
+  color: var(--primary-color);
+}
+#date {
+  font-weight: 300;
+}
+#position {
+  font-weight: bold;
+}
+#company {
+  color: var(--primary-color);
+}
+#description {
+  padding-right: 50px;
+  color: #c3c3c3;
+  font-size: small;
+}
+footer {
+  height: 45vh;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
